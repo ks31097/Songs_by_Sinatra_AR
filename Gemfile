@@ -9,6 +9,7 @@ gem 'puma'
 gem 'reel'
 gem 'http'
 gem 'webrick'
+gem 'bootstrap'
 
 group :development do
   gem 'sqlite3'
