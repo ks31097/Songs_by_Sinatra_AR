@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/stylesheets/application.css">
 
     <title><%= @title || "Songs by Sinatra" %></title>
-      <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="/images/favicon.ico">
   </head>
   <body>
     <div class="container">
@@ -30,13 +30,11 @@
           <% end %>
         </div>
 
-          <%= yield %>
+        <%= yield %>
       </main>
 
-      <footer>
-        <div>
+      <footer class="footer text-center" style="margin-top: 30px">
           <%= erb :footer %>
-        </div>
       </footer>
 
     </div>
