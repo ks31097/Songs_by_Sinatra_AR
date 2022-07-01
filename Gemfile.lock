@@ -170,7 +170,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   activerecord
@@ -187,6 +187,9 @@ DEPENDENCIES
   thin
   tux
   webrick
+
+RUBY VERSION
+  ruby-3.0.0
 
 BUNDLED WITH
    2.3.14
