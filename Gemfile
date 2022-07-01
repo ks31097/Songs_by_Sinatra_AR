@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'sinatra'
 gem 'activerecord'
+gem 'bootstrap'
+gem 'http'
+gem 'puma'
+gem 'reel'
+gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'rake'
 gem 'thin'
-gem 'puma'
-gem 'reel'
-gem 'http'
 gem 'webrick'
-gem 'bootstrap'
 
 group :development do
-  gem 'sqlite3'
   gem 'sinatra-contrib'
+  gem 'sqlite3'
   gem 'tux'
 end
 
